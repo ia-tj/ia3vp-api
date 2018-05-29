@@ -1,5 +1,6 @@
 package io.github.iatjsc.ia3vp.api.config;
 
+<<<<<<< HEAD
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
@@ -29,5 +30,11 @@ public class AppConfig implements WebMvcConfigurer{
 	public TransportClient getClient() {
 		return this.client;
 	}
+=======
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class AppConfig {
+>>>>>>> c67024248468917b6e247fb8aa0a2267546ca14c
 
 }
